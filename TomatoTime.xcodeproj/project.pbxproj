@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		915DC0E32DFE9E1600D760F0 /* TomatoTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC0E22DFE9E1600D760F0 /* TomatoTimeApp.swift */; };
+		915DC0E52DFE9E1600D760F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC0E42DFE9E1600D760F0 /* ContentView.swift */; };
+		915DC0E72DFE9E1700D760F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915DC0E62DFE9E1700D760F0 /* Assets.xcassets */; };
+		915DC1112DFEA0F100D760F0 /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC10F2DFEA0EE00D760F0 /* PomodoroTimer.swift */; };
+		915DC1182DFEA23100D760F0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC1172DFEA22E00D760F0 /* TimerView.swift */; };
+		915DC11C2DFEA24600D760F0 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC11B2DFEA24400D760F0 /* StatsView.swift */; };
+		915DC11F2DFEA25A00D760F0 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC11E2DFEA25900D760F0 /* ProgressRing.swift */; };
+		915DC1212DFEA26100D760F0 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC1202DFEA25D00D760F0 /* ActionButton.swift */; };
+		915DC1232DFEA26A00D760F0 /* TitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC1222DFEA26900D760F0 /* TitleHeader.swift */; };
+		915DC1252DFEA5C600D760F0 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC1242DFEA5C500D760F0 /* TodoView.swift */; };
+		915DC1272DFEA76400D760F0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DC1262DFEA76200D760F0 /* SplashView.swift */; };
+		915DC12A2DFEA9C500D760F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 915DC1292DFEA9C000D760F0 /* README.md */; };
+		915DC12D2DFEAAB100D760F0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 915DC12C2DFEAAAD00D760F0 /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		915DC0ED2DFE9E1700D760F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,27 +41,22 @@
 
 /* Begin PBXFileReference section */
 		915DC0DF2DFE9E1600D760F0 /* TomatoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		915DC0E22DFE9E1600D760F0 /* TomatoTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoTimeApp.swift; sourceTree = "<group>"; };
+		915DC0E42DFE9E1600D760F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		915DC0E62DFE9E1700D760F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		915DC0EC2DFE9E1700D760F0 /* TomatoTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		915DC0F62DFE9E1700D760F0 /* TomatoTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		915DC10F2DFEA0EE00D760F0 /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
+		915DC1172DFEA22E00D760F0 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		915DC11B2DFEA24400D760F0 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		915DC11E2DFEA25900D760F0 /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		915DC1202DFEA25D00D760F0 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		915DC1222DFEA26900D760F0 /* TitleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeader.swift; sourceTree = "<group>"; };
+		915DC1242DFEA5C500D760F0 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		915DC1262DFEA76200D760F0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		915DC1292DFEA9C000D760F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		915DC12C2DFEAAAD00D760F0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		915DC0E12DFE9E1600D760F0 /* TomatoTime */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TomatoTime;
-			sourceTree = "<group>";
-		};
-		915DC0EF2DFE9E1700D760F0 /* TomatoTimeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TomatoTimeTests;
-			sourceTree = "<group>";
-		};
-		915DC0F92DFE9E1700D760F0 /* TomatoTimeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TomatoTimeUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		915DC0DC2DFE9E1600D760F0 /* Frameworks */ = {
@@ -75,9 +86,12 @@
 		915DC0D62DFE9E1600D760F0 = {
 			isa = PBXGroup;
 			children = (
-				915DC0E12DFE9E1600D760F0 /* TomatoTime */,
-				915DC0EF2DFE9E1700D760F0 /* TomatoTimeTests */,
-				915DC0F92DFE9E1700D760F0 /* TomatoTimeUITests */,
+				915DC12C2DFEAAAD00D760F0 /* LICENSE */,
+				915DC12B2DFEAA7600D760F0 /* assets */,
+				915DC1292DFEA9C000D760F0 /* README.md */,
+				915DC1132DFEA1F000D760F0 /* Models */,
+				915DC0E22DFE9E1600D760F0 /* TomatoTimeApp.swift */,
+				915DC0E62DFE9E1700D760F0 /* Assets.xcassets */,
 				915DC0E02DFE9E1600D760F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +104,45 @@
 				915DC0F62DFE9E1700D760F0 /* TomatoTimeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		915DC1132DFEA1F000D760F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				915DC10F2DFEA0EE00D760F0 /* PomodoroTimer.swift */,
+				915DC1142DFEA20000D760F0 /* Views */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		915DC1142DFEA20000D760F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				915DC1262DFEA76200D760F0 /* SplashView.swift */,
+				915DC1242DFEA5C500D760F0 /* TodoView.swift */,
+				915DC11D2DFEA24D00D760F0 /* CustomComponents */,
+				915DC11B2DFEA24400D760F0 /* StatsView.swift */,
+				915DC1172DFEA22E00D760F0 /* TimerView.swift */,
+				915DC0E42DFE9E1600D760F0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		915DC11D2DFEA24D00D760F0 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				915DC1222DFEA26900D760F0 /* TitleHeader.swift */,
+				915DC1202DFEA25D00D760F0 /* ActionButton.swift */,
+				915DC11E2DFEA25900D760F0 /* ProgressRing.swift */,
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		915DC12B2DFEAA7600D760F0 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +159,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				915DC0E12DFE9E1600D760F0 /* TomatoTime */,
 			);
 			name = TomatoTime;
 			packageProductDependencies = (
@@ -130,9 +180,6 @@
 			dependencies = (
 				915DC0EE2DFE9E1700D760F0 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				915DC0EF2DFE9E1700D760F0 /* TomatoTimeTests */,
-			);
 			name = TomatoTimeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +199,6 @@
 			);
 			dependencies = (
 				915DC0F82DFE9E1700D760F0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				915DC0F92DFE9E1700D760F0 /* TomatoTimeUITests */,
 			);
 			name = TomatoTimeUITests;
 			packageProductDependencies = (
@@ -212,6 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915DC12D2DFEAAB100D760F0 /* LICENSE in Resources */,
+				915DC12A2DFEA9C500D760F0 /* README.md in Resources */,
+				915DC0E72DFE9E1700D760F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915DC1112DFEA0F100D760F0 /* PomodoroTimer.swift in Sources */,
+				915DC11C2DFEA24600D760F0 /* StatsView.swift in Sources */,
+				915DC11F2DFEA25A00D760F0 /* ProgressRing.swift in Sources */,
+				915DC0E52DFE9E1600D760F0 /* ContentView.swift in Sources */,
+				915DC1182DFEA23100D760F0 /* TimerView.swift in Sources */,
+				915DC0E32DFE9E1600D760F0 /* TomatoTimeApp.swift in Sources */,
+				915DC1252DFEA5C600D760F0 /* TodoView.swift in Sources */,
+				915DC1272DFEA76400D760F0 /* SplashView.swift in Sources */,
+				915DC1212DFEA26100D760F0 /* ActionButton.swift in Sources */,
+				915DC1232DFEA26A00D760F0 /* TitleHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +452,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJ5Y6MQ4QS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJ5Y6MQ4QS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
