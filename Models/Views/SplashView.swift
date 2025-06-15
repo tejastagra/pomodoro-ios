@@ -9,7 +9,7 @@ struct SplashView: View {
     var body: some View {
         ZStack {
             if showMain {
-                TimerView()
+                ContentView() // ✅ Replaces TimerView with ContentView
                     .transition(.opacity)
             } else {
                 ZStack {
